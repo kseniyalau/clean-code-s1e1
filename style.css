@@ -13,7 +13,7 @@ body {
 .hero-banner img {
   width: 100%;
 }
-.hero-banner .more-inf {
+.hero-banner .more-info {
   font-family: fantasy, cursive;
 }
 
@@ -21,7 +21,7 @@ body {
   .hero-banner { text-align: center;
   }
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
