@@ -18,7 +18,8 @@
 }
 
 @media (max-width:768px) {
-  .hero-banner { text-align: center;
+  .hero-banner { 
+    text-align: center;
   }
 }
 .main {
