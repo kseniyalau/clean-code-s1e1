@@ -1,84 +1,84 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Todo App</title>
-  <link 
-    href="https://fonts.googleapis.com/css?family=Lato:300,400,700" 
-    rel="stylesheet"
-  >
-  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
-</head>
-<body class="page">
-  <div class="hero-banner">
-    <img class="hero-banner__img" src="./eisenhower-matrix.jpg" alt="Eisenhower Matrix">
-    <a 
-      class="hero-banner__link" 
-      href="https://goal-life.com/page/method/matrix-eisenhower"
+  <head>
+    <title>Todo App</title>
+    <link 
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700" 
+      rel="stylesheet"
     >
-      Want more details?
-    </a>
-  </div>
-  <div class="main">
-    <div id="add-task">
-      <label
-        class="heading add-task__label"
-        for="new-task"
+    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+  </head>
+  <body class="page">
+    <div class="hero-banner">
+      <img class="hero-banner__img" src="./eisenhower-matrix.jpg" alt="Eisenhower Matrix">
+      <a 
+        class="hero-banner__link" 
+        href="https://goal-life.com/page/method/matrix-eisenhower"
       >
-        Add Item
-      </label>
-      <div class="add-task__wrapper">
-        <input 
-          id="new-task"
-          class="task-name task-name-input add-task__input"
-          type="text"
-        >
-        <button class="btn">Add</button>
-      </div>
+        Want more details?
+      </a>
     </div>
-    <h3 class="heading">Todo</h3>
-    <ul class="tasks-list tasks-list_incompleted">
-      <li class="tasks-list__item">
-        <input class="tasks-list__checkbox" type="checkbox">
-        <label class="task-name tasks-list__label">Pay Bills</label>
-        <input 
-          type="text" 
-          class="task-name task-name-input tasks-list__input"
+    <div class="main">
+      <div id="add-task">
+        <label
+          class="heading add-task__label"
+          for="new-task"
         >
-        <button class="btn edit-btn">Edit</button>
-        <button class="btn delete-btn">
-          <img class="delete-btn__img" src="./remove.svg" alt="Cross sign icon">
-        </button>
-      </li>
-      <li class="tasks-list__item tasks-list__item_edit-mode">
-        <input class="tasks-list__checkbox" type="checkbox">
-        <label class="task-name tasks-list__label">Go Shopping</label>
-        <input 
-          type="text" 
-          value="Go Shopping" 
-          class="task-name task-name-input tasks-list__input"
-        >
-        <button class="btn edit-btn">Save</button>
-        <button class="btn delete-btn">
-          <img class="delete-btn__img" src="./remove.svg" alt="Cross sign icon">
-        </button>
-      </li>
-    </ul>
-    <h3 class="heading">Completed</h3>
-    <ul class="tasks-list tasks-list_completed">
-      <li class="tasks-list__item">
-        <input class="tasks-list__checkbox" type="checkbox" checked>
-        <label class="task-name tasks-list__label">See the Doctor</label>
-        <input 
-          type="text" 
-          class="task-name task-name-input tasks-list__input"
-        >
-        <button class="btn edit-btn">Edit</button>
-        <button class="btn delete-btn">
-          <img class="delete-btn__img" src="./remove.svg" alt="Cross sign icon">
-        </button>
-      </li>
-    </ul>
-  </div>
-  <script src="app.js"></script>
-</body>
+          Add Item
+        </label>
+        <div class="add-task__wrapper">
+          <input 
+            id="new-task"
+            class="task-name task-name-input add-task__input"
+            type="text"
+          >
+          <button class="btn">Add</button>
+        </div>
+      </div>
+      <h3 class="heading">Todo</h3>
+      <ul class="tasks-list tasks-list_incompleted">
+        <li class="tasks-list__item">
+          <input class="tasks-list__checkbox" type="checkbox">
+          <label class="task-name tasks-list__label">Pay Bills</label>
+          <input 
+            type="text" 
+            class="task-name task-name-input tasks-list__input"
+          >
+          <button class="btn edit-btn">Edit</button>
+          <button class="btn delete-btn">
+            <img class="delete-btn__img" src="./remove.svg" alt="Cross sign icon">
+          </button>
+        </li>
+        <li class="tasks-list__item tasks-list__item_edit-mode">
+          <input class="tasks-list__checkbox" type="checkbox">
+          <label class="task-name tasks-list__label">Go Shopping</label>
+          <input 
+            type="text" 
+            value="Go Shopping" 
+            class="task-name task-name-input tasks-list__input"
+          >
+          <button class="btn edit-btn">Save</button>
+          <button class="btn delete-btn">
+            <img class="delete-btn__img" src="./remove.svg" alt="Cross sign icon">
+          </button>
+        </li>
+      </ul>
+      <h3 class="heading">Completed</h3>
+      <ul class="tasks-list tasks-list_completed">
+        <li class="tasks-list__item">
+          <input class="tasks-list__checkbox" type="checkbox" checked>
+          <label class="task-name tasks-list__label">See the Doctor</label>
+          <input 
+            type="text" 
+            class="task-name task-name-input tasks-list__input"
+          >
+          <button class="btn edit-btn">Edit</button>
+          <button class="btn delete-btn">
+            <img class="delete-btn__img" src="./remove.svg" alt="Cross sign icon">
+          </button>
+        </li>
+      </ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
